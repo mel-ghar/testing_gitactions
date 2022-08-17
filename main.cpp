@@ -1,8 +1,16 @@
 #include <iostream>
 
-int main()
+template <typename T>
+void	refactor()
 {
-	int *a = new int(2);
+	T *a = new T();
 	std::cout << a << "\n";
 	delete a;
+}
+
+
+
+int main()
+{
+	refactor<int>();
 }
