@@ -12,5 +12,5 @@ void	refactor()
 
 int main()
 {
-	refactor<int>();
+	refactor();
 }
