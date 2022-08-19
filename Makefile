@@ -4,7 +4,7 @@ CFLAGS=
 all: main
 
 main: main.cpp
-	$(CC) $(CFLAGS) $^ -o $@
+	git branch --show-current ; $(CC) $(CFLAGS) $^ -o $@
 clean: 
 	rm -f main
 
