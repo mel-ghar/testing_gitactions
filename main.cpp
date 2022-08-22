@@ -13,4 +13,5 @@ void	refactor()
 int main()
 {
 	refactor<int>();
+	std::cout << "code updated\n";
 }
